@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Trade Me</title>
+        <link rel="stylesheet" href="CSS/apprentie.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+        <link href="/Terano Regular.ttf" rel="stylesheet">
+
+    </head>
+
+
+<body>
+  <!---------------------------------------------------------------------------------->   
+  <nav>
+    <div class="left">
+      <a href="propos.html">A propos</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="faq.html">FAQs</a>
+    </div>
+    <div class="middle">
+      <a href="PageACC.html">
+      <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/logs.png" alt="Logo"></a>
+    </div>
+    <div class="right">
+      <a href="profile.html">
+            <button class="btn"> 
+              <span>Connexion</span>
+            </button></a>
+    </div>
+  </nav>
+
+
+  <div class="4">
+    <div class="titre">
+        <h1>Offre Apprentie</h1>
+        <div class="separator"></div>
+    </div>
+  
+  
+  <div class="parent">
+  
+    <div class="erudi">
+      <h1 id="gratuit">250$</h1>
+      <img id="teste"  src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/erudi.png">
+      <h1 id="grade">Légende</h1>
+      <h2 id="text">Gagnez 20% par mois! Abonnez-vous pour 250€ par mois et devenez riche comme Croesus grâce à notre robot de trading réputé.</h2>
+    </div>
+        <div class="description">
+            <p id="des">Description !</p>
+            <p id="savoir">Nous offrons une opportunité d'investissement dans les crypto-monnaies avec un potentiel de rendement mensuel de 20%, un dépôt minimum de 250$, et une limite de dépôt maximum de 2000$. Notre robot de trading utilise l'intelligence artificielle et l'analyse de données pour déterminer les stratégies de trading les plus efficaces. Cependant, il est important de comprendre que les investissements en crypto-monnaies comportent des risques et de prendre cela en compte avant de prendre une décision d'investissement.</p>
+            <p id="prevention">Investir dans les crypto-monnaies comporte des risques importants. Avant de prendre une décision d'investissement, assurez-vous de bien comprendre le marché et les risques associés. Ne jamais investir plus que ce que vous êtes prêt à perdre. Et surtout, faites une vérification approfondie de toutes les offres d'investissement avant de décider d'y participer.</p>
+        </div>
+  </div>
+  
+  <div id="chartContainer">
+  <canvas id="myChart" width="1000" height="500"></canvas>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script>
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+        datasets: [{
+            label: 'Évolution du capital 8% Mensuel',
+            data: [2000, 2400, 2880, 3456, 4147, 4976, 5971, 7165, 8598, 10317, 12381, 14857],
+            backgroundColor: 'rgb(93, 252, 187 , 0.2)',
+            borderColor: 'rgb(0, 255, 151, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 100
+            }
+        }
+    }
+  });
+  </script>
+  </div>
+  
+  <table>
+    <tbody>
+      <tr>
+        <td><img src="image/logs.png" alt=""></td>
+        <td>Version limitée</td>
+        <td>Dépot Min limitée</td>
+        <td>Dépot Max limitée</td>
+        <td>Support technique de base</td>
+        <td>Support technique amélioré</td>
+        <td>Support technique premium</td>
+        <td>Fonctionnalités avancées</td>
+        <td>Toutes les fonctionnalités disponibles</td>
+        <td>Fonctionnalités exclusives</td>
+      </tr>
+      <tr>
+        <td>Apprentie</td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+      </tr>
+      <tr>
+        <td>Héros</td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+      </tr>
+      <tr>
+        <td>Champion</td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+      </tr>
+      <tr>
+        <td>Légende</td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/traverser.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+        <td><img src="image/correct.png" alt=""></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
+
+
+  <button class=button> <a href="ticket4.html"> Poursuivre l'achat -></a><img class="panier" src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/panier.png"></button>
+
+  <footer>
+    <div class="position">
+                <div class="haut">  
+                    <img class="imageFooter" src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/logoFin.png">
+                </div>
+                    <div class="bas">
+                        <div class="date">
+                            <h3>@2023 Trade Me society</h3>
+                        </div>
+                        <div class="lien">
+                            <h3>FAQS</h3>
+                            <h3>TERMS & CONDITIONS</h3>
+                            <h3>ABONNEMENT</h3>
+                        </div>
+                        <div class="reseau">
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/twitter.png">
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/insta.png">
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/discord.png"> 
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/tiktok.png">
+                        </div>
+                    
+                </div>
+        </div>
+</footer>
+<script src="JS/anim.js"></script>
+</body>
+
+</html>

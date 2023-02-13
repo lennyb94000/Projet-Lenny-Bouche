@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Trade Me</title>
+        <link rel="stylesheet" href="CSS/payement.css">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" rel="stylesheet" type="text/css">
+        
+
+    </head>
+
+<body>
+  <nav>
+    <div class="left">
+      <a href="propos.html">A propos</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="faq.html">FAQs</a>
+    </div>
+    <div class="middle">
+      <a href="PageACC.html">
+      <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/logs.png" alt="Logo"></a>
+    </div>
+    <div class="right">
+      <a href="profile.html">
+            <button class="btn"> 
+              <span>Connexion</span>
+            </button></a>
+    </div>
+  </nav>
+
+  <div class="parent">
+
+    <div class="cartebleu">
+        <img src="image/cb.png" alt="">
+        <h1>Carte Bancaire</h1>
+        <button id="myButton"><img id="fleche" src="image/fleche-vers-le-bas.png" alt=""></button>
+    </div>
+
+<div id="myDiv">
+  Contenu de la sous-division
+</div>
+
+<script>
+  const button = document.getElementById("myButton");
+  const div = document.getElementById("myDiv");
+
+  button.addEventListener("click", function() {
+    if (div.style.display === "none") {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+</script>
+
+
+    <div class="paypal">
+        <img src="image/paypal.png" alt="">
+        <h1>Paypal</h1>
+        <img id="fleche"  src="image/fleche-vers-le-bas.png" alt="">
+    </div>
+
+</div>
+
+
+
+  <footer>
+    <div class="position">
+                <div class="haut">  
+                    <img class="imageFooter" src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/logoFin.png">
+                </div>
+                    <div class="bas">
+                        <div class="date">
+                            <h3>@2023 Trade Me society</h3>
+                        </div>
+                        <div class="lien">
+                            <h3>FAQS</h3>
+                            <h3>TERMS & CONDITIONS</h3>
+                            <h3>ABONNEMENT</h3>
+                        </div>
+                        <div class="reseau">
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/twitter.png">
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/insta.png">
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/discord.png"> 
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/tiktok.png">
+                        </div>
+                    
+                </div>
+        </div>
+</footer>
+
+<script src="JS/jaja.js"></script>
+</body>
+</html>

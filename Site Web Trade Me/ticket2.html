@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Trade Me</title>
+        <link rel="stylesheet" href="CSS/ticket.css">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" rel="stylesheet" type="text/css">
+        
+
+    </head>
+
+<body>
+  <nav>
+    <div class="left">
+      <a href="propos.html">A propos</a>
+      <a href="abonnement.html">Abonnement</a>
+      <a href="faq.html">FAQs</a>
+    </div>
+    <div class="middle">
+      <a href="PageACC.html">
+      <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/logs.png" alt="Logo"></a>
+    </div>
+    <div class="right">
+      <a href="profile.html">
+            <button class="btn"> 
+              <span>Connexion</span>
+            </button></a>
+    </div>
+  </nav>
+
+    <div class="ticket">
+        <h1>Récapitulatif de la commande.</h1>
+        <div class="separator"></div>
+    </div>
+
+    <div class="parent">
+        <div class="leftt">
+          <div class="childl">Prix abonnement :</div>
+          <div class="childl">Frais de transaction :</div>
+          <div class="childl">TVA :</div>
+          <div class="childl">Dépot d'argent :</div>
+        </div>
+        <div class="right">
+          <div class="child">29$</div>
+          <div class="child">1$</div>
+          <div class="child">5%</div>
+          <div class="child">
+            <div class="form__group field">
+              <input type="number" class="form__field" id="montant" min="200" max="800" placeholder="Montant $" />
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="t" class="separator"></div>
+
+      <div class="sous-parent">
+        <div class="gauche">
+            <div class="totall">Total :</div>
+        </div>
+        <div class="droit">
+            <div class="total">0,00$</div>
+        </div>
+        
+      </div>
+      
+     
+
+      <script>
+        function calculate() {
+          var x = document.getElementById('montant').value || 0;
+          var y = parseFloat(x) * 0.05 + 1 + 29 ;
+          var totalDiv = document.querySelector('.total');
+          var total = parseFloat(x) + y;
+          totalDiv.textContent = total.toFixed(2) + "$";
+        }
+    
+        var montantInput = document.getElementById('montant');
+        montantInput.addEventListener('input', calculate);
+      </script>
+
+      <button class=button><a href="payement.html">Payer</a><img class="panier" src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/panier.png"></button>
+
+  <footer>
+    <div class="position">
+                <div class="haut">  
+                    <img class="imageFooter" src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/logoFin.png">
+                </div>
+                    <div class="bas">
+                        <div class="date">
+                            <h3>@2023 Trade Me society</h3>
+                        </div>
+                        <div class="lien">
+                            <h3>FAQS</h3>
+                            <h3>TERMS & CONDITIONS</h3>
+                            <h3>ABONNEMENT</h3>
+                        </div>
+                        <div class="reseau">
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/twitter.png">
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/insta.png">
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/discord.png"> 
+                            <img src="C:\Users\zbull\OneDrive\Bureau\Site Web Trade Me\image/tiktok.png">
+                        </div>
+                    
+                </div>
+        </div>
+</footer>
+
+<script src="JS/jaja.js"></script>
+</body>
+</html>
+
