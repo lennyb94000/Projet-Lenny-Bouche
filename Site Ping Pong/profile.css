@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    grid-gap: 90px;
+    height: 70px;
+}
+
+nav h1{
+    color: #ff8000;
+    position: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid white;
+    background-color: #ffffff;
+    padding: 1px;
+    height: 70px;
+    
+}
+
+.logolouisarmand img {
+    height: 58px;
+    margin-left: 10px;
+    display:inline-block;
+    text-align:left;
+  }
+
+.logowifi img{
+    height: 40px;   
+
+}
+
+
+.optionfooter {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.boxfooter {
+  display: inline-block;
+  border-radius: 10px;
+  border: 0px solid white;
+  height: 55px;
+  width: 45px;
+  background-color: white;
+  margin: 0 45px;
+  cursor: pointer;
+}
+
+.boxfooter img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 2px;
+}
+
+.choix{
+    margin: auto !important;
+    width: 425px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    grid-gap: px;
+}
+.choix h1{
+    font-size: 16px;
+    text-align: center;
+    color: #ff8000;
+}
+
+.connexion{
+    margin: auto !important;
+    align-items: center !important;
+    border-radius: 20px;
+    height: 35px;
+    width: 110px;
+    background-color: white;
+}
+
+.inscription{
+    margin: auto !important;
+    align-items: center !important;
+    border-radius: 20px;
+    height: 35px;
+    width: 110px;
+    background-color: white;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #ff8000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #ff8000;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #ff8000;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background: #ff8000; /* fallback for old browsers */
+  background: #e8e8e8;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+
+  
